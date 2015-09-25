@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Mutibo>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+
+	<application>stable-plasma-775</application>
+	<version>prod</version>
+
+	<threadsafe>true</threadsafe>
+
+	<system-properties>
+		<property name="java.util.logging.config.file" value="WEB-INF/logging.properties" />
+	</system-properties>
+</appengine-web-app>

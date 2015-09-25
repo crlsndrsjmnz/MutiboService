@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.7" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.coursera.mutibosvc.Application" project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/Application.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="248" x="1192" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.coursera.mutibosvc.beans.Answer" project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/beans/Answer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="440" width="205" x="247" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.coursera.mutibosvc.beans.CachedSet" project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/beans/CachedSet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="242" width="162" x="45" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.coursera.mutibosvc.beans.QuestionSet" project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/beans/QuestionSet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="908" width="480" x="1480" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.coursera.mutibosvc.beans.Session" project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/beans/Session.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="566" width="369" x="492" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="org.coursera.mutibosvc.client.MutiboSvcApi" project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/client/MutiboSvcApi.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="422" width="339" x="2437" y="985"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="org.coursera.mutibosvc.controller.MutiboSvc" project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/controller/MutiboSvc.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="278" width="339" x="2244" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.coursera.mutibosvc.controller.SecurityInterceptor" 
+    project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/controller/SecurityInterceptor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="403" x="2685" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.coursera.mutibosvc.repository.AnswerRepository" 
+    project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/repository/AnswerRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="246" x="1239" y="985"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.coursera.mutibosvc.repository.CachedSetRepository" 
+    project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/repository/CachedSetRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="359" x="2038" y="985"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.coursera.mutibosvc.repository.JDOCrudRepository" 
+    project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/repository/JDOCrudRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="242" width="204" x="2000" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.coursera.mutibosvc.repository.PMF" project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/repository/PMF.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="251" x="901" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="org.coursera.mutibosvc.repository.QuestionSetRepository" 
+    project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/repository/QuestionSetRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="473" x="1525" y="985"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="org.coursera.mutibosvc.repository.SessionRepository" 
+    project="MutiboServiceCoursera" 
+    file="/MutiboServiceCoursera/src/main/java/org/coursera/mutibosvc/repository/SessionRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="272" x="2816" y="985"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="15">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="16" name="answerRep"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="20">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="21" name="sessionRep"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="24" name="qSetsRep"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="27" name="cachedSetsRep"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="30">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="31">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="32" name="sessionRep"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
